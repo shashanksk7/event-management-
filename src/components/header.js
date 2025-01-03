@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
@@ -11,7 +9,7 @@ export const Header = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to={"/"}>
-            <h2>Glow More</h2>
+            <h2>Event Management</h2>
           </NavLink>
           <button
             className="navbar-toggler"
@@ -28,7 +26,7 @@ export const Header = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink className="nav-link "  to={"/products"}>
-                  Products
+                  Events
                 </NavLink>
               </li>
               <li className="nav-item">
