@@ -1,7 +1,7 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { Header } from "./components/header";
-
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
           <Header />
         </header>
         <main>
+         
         </main>
       </Router>
     </>
